@@ -1,0 +1,94 @@
+{
+  "common": {
+    "appTitle": "Demo APP",
+    "dateFormat": "dd.MM.yyyy",
+    "timeFormat": "hh:mm",
+    "dateTimeFormat": "hh:mm dd.MM.yyyy",
+    "name": "first and last name",
+    "dayOfBirth": "day of birth"
+  },
+  "navigation": {
+    "users": "USERS",
+    "devices": "DEVICES",
+    "info": "INFO",
+    "darkModeOn": "Dark Mode On",
+    "darkModeOff": "Dark Mode Off"
+  },
+  "devicesListScreen": {
+    "connectedDevices": "connected devices",
+    "scannedDevices": "scanned devices",
+    "btNotReady": "Bluetooth deactivated!",
+    "scanningEnabled": "Bluetooth scanning activated!",
+    "startScanning": "press to scan for bluetooth devices"
+  },
+  "userScreen": {
+    "title:": "",
+    "noData": "no data avaible",
+    "tabs": {
+      "person": {
+        "title": "BASE DATA"
+      },
+      "chart": {
+        "title": "DIAGRAMS",
+        "unableToCreate": "unable to create a diagram :("
+      },
+      "list": {
+        "title": "LISTS"
+      }
+    }
+  },
+  "infoScreen": {
+    "title": "App Info",
+    "appName": "App Name",
+    "appBuild": "Build",
+    "appVersion": "Version",
+    "buildInfo": "Build-Info",
+    "contactHeading": "Contact",
+    "contactDetails": "office@loidl-conuslting.at",
+    "appDescription": "Demo application to show the integration of BT devices.\nThis application is not intended for productive operation, but only for demo purposes!\n"
+  },
+  "measurementTypes": {
+    "BLOOD_PRESSURE_BLE": {
+      "name": "BLOOD PRESSURE",
+      "systolic": "SYSTOLIC",
+      "diastolic": "DIASTOLIC",
+      "pulsRate": "PULSE"
+    },
+    "BLOOD_OXY_BLE": {
+      "name": "OXYGEN SATURATION",
+      "spo2": "SATURATION",
+      "pulsRate": "PULSE"
+    },
+    "WEIGHT_BLE": {
+      "name": "BODY WEIGHT SCALE",
+      "weight": "WEIGHT",
+      "kcal": "KCAL",
+      "fat": "BODYFAT",
+      "muscle": "MUSCLE",
+      "bone": "BONE",
+      "water": "WATER"
+    },
+    "BLOOD_PRESSURE_SIMPLE": {
+      "name": "BLOOD PRESSURE (SIMPLE)",
+      "systolic": "SYSTOLIC",
+      "diastolic": "DIASTOLIC",
+      "pulsRate": "PULSE"
+    },
+    "UNKNOWN": {
+      "name": "unknown measurement"
+    },
+    "TEMPERATURE_BLE": {
+      "name": "BODY TEMPERATURE"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

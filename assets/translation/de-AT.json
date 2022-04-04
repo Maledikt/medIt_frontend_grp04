@@ -1,0 +1,88 @@
+{
+  "common": {
+    "appTitle": "Demo APP",
+    "dateFormat": "dd.MM.yyyy",
+    "timeFormat": "hh:mm",
+    "dateTimeFormat": "hh:mm dd.MM.yyyy",
+    "name": "Vor- und Nachname",
+    "dayOfBirth": "Geburtstag"
+  },
+  "navigation": {
+    "home": "Home",
+    "users": "Klienten",
+    "devices": "Geräte",
+    "info": "Über...",
+    "darkModeOn": "Nacht Modus An",
+    "darkModeOff": "Nacht Modus Aus"
+  },
+  "devicesListScreen": {
+    "connectedDevices": "Verbundene Geräte",
+    "scannedDevices": "Gefundene Geräte",
+    "btNotReady": "Bluetooth deaktiviert!",
+    "scanningEnabled": "Suche nach Geräten...",
+    "startScanning": "Starte Suche!"
+  },
+  "homeScreen": {
+    "title": "Home Sweet Home..."
+  },
+  "userScreen": {
+    "title": "Klientenliste",
+    "noData": "keine Daten vorhanden",
+    "tabs": {
+      "person": {
+        "title": "Stammdaten"
+      },
+      "chart": {
+        "title": "Diagramm",
+        "unableToCreate": "Kann kein Diagram erstellen :("
+      },
+      "list": {
+        "title": "Liste"
+      }
+    }
+  },
+  "infoScreen": {
+    "title": "App Info",
+    "appName": "App Name",
+    "appBuild": "Build",
+    "appVersion": "Version",
+    "buildInfo": "Build-Info",
+    "contactHeading": "Kontakt",
+    "contactDetails": "office@loidl-conuslting.at",
+    "appDescription": "Demo Applikation zur Darstellung der Integration von BT Geräten.\nDiese Appliation ist nicht für den produktiven Betrieb, sondern ausschließlich für Demo-Zwecke bestimmt!"
+  },
+  "measurementTypes": {
+    "BLOOD_PRESSURE_BLE":{
+      "name": "Blutdruck",
+      "systolic": "Systole",
+      "diastolic": "Diastole",
+      "pulsRate": "Puls"
+    },
+    "BLOOD_OXY_BLE":{
+      "name": "Sauerstoffsättigung",
+      "spo2": "Sättigung",
+      "pulsRate": "Puls"
+    },
+    "WEIGHT_BLE": {
+      "name": "Gewicht",
+      "weight": "Gewicht",
+      "kcal": "kcal",
+      "fat": "Körperfett",
+      "muscle": "Muskel",
+      "bone": "Knochen,",
+      "water": "Wasser"
+    },
+    "BLOOD_PRESSURE_SIMPLE": {
+      "name": "Blutdruck (einfach)",
+      "systolic": "Systole",
+      "diastolic": "Diastole",
+      "pulsRate": "Puls"
+    },
+    "UNKNOWN": {
+      "name": "Unbekannte Messung"
+    },
+    "TEMPERATURE_BLE": {
+      "name": "Körpertemperatur"
+    }
+  }
+}
